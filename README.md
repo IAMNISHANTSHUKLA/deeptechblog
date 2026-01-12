@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nishant Shukla — Deep Tech Blog
 
-## Getting Started
+A personal research-oriented blog focused on **distributed systems, deep learning infrastructure, databases for ML, and theoretical foundations of modern machine learning**.
 
-First, run the development server:
+Built with **Next.js (App Router)** and designed to be minimal, readable, and extensible for long-form technical writing.
 
+---
+
+##  Live
+> (Add your Vercel URL here once deployed)
+
+---
+
+##  About
+
+This blog serves as a public research notebook where I write and curate notes on:
+
+- Distributed systems for large-scale ML
+- Deep learning theory & optimization
+- Transformer architectures
+- Databases for ML workloads
+- Fault tolerance, scalability, and systems–theory intersections
+
+I am particularly interested in **hallucinations in LLMs**, and I am currently grinding **DSA and competitive programming** alongside research-oriented learning.
+
+---
+
+##  Content Structure
+
+The blog currently organizes ideas around the following research themes:
+
+1. **Distributed Systems & Deep Learning Infrastructure**
+2. **Database Architecture for ML Workloads**
+3. **Transformer Architecture Foundations**
+4. **Deep Learning Theory & Optimization**
+5. **Cross-Cutting Systems–Theory Problems**
+
+Each section contains well-defined problem statements intended for deep exploration and future long-form articles.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Custom CSS (minimal, academic aesthetic)
+- **Deployment:** Vercel
+- **Future Additions (Planned):**
+  - MDX-based blog posts
+  - LaTeX / KaTeX for math-heavy content
+  - RSS feed & sitemap
+  - Research-notes style navigation
+
+---
+
+##  Getting Started (Local Development)
+
+### 1. Install dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
